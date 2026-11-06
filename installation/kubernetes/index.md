@@ -250,6 +250,14 @@ If you expose Meshery through an ingress on Minikube, the following steps set up
             Request to Reactivate My Slack Account
           </a>
         </li><li>
+          <a href="https://discuss.meshery.io/t/bug-new-catalog-publish-request-email-renders-with-oversized-social-icons-and-squashed-content-on-mobile/8138" target="_blank" rel="noopener noreferrer">
+            [Bug] &#34;New Catalog publish request&#34; email renders with oversized social icons and squashed content on mobile
+          </a>
+        </li><li>
+          <a href="https://discuss.meshery.io/t/new-contributor-intro-vedit-agrawal-bughunterx2101-looking-to-pair-with-a-meshmate-for-meshery-ui-ai-adapter/8172" target="_blank" rel="noopener noreferrer">
+            New Contributor Intro: Vedit Agrawal (@BugHunterX2101) | Looking to pair with a MeshMate for Meshery UI &amp; AI Adapter
+          </a>
+        </li><li>
           <a href="https://discuss.meshery.io/t/looking-for-a-meshmate-frontend-backend-cloud-native-development/8161" target="_blank" rel="noopener noreferrer">
             Looking for a MeshMate — Frontend, Backend &amp; Cloud-Native Development
           </a>
@@ -258,20 +266,12 @@ If you expose Meshery through an ingress on Minikube, the following steps set up
             Request for a MeshMate — Active Meshery Contributor
           </a>
         </li><li>
-          <a href="https://discuss.meshery.io/t/bug-new-catalog-publish-request-email-renders-with-oversized-social-icons-and-squashed-content-on-mobile/8138" target="_blank" rel="noopener noreferrer">
-            [Bug] &#34;New Catalog publish request&#34; email renders with oversized social icons and squashed content on mobile
-          </a>
-        </li><li>
           <a href="https://discuss.meshery.io/t/how-to-present-an-issue-pr-in-a-development-meeting-feedback-wanted/8107" target="_blank" rel="noopener noreferrer">
             How to Present an Issue/PR in a Development Meeting: feedback wanted
           </a>
         </li><li>
           <a href="https://discuss.meshery.io/t/newbie-here-excited-to-join/8052" target="_blank" rel="noopener noreferrer">
             Newbie here -- Excited to join
-          </a>
-        </li><li>
-          <a href="https://discuss.meshery.io/t/play-meshery-io-is-down/8045" target="_blank" rel="noopener noreferrer">
-            play.meshery.io is DOWN
           </a>
         </li></ul><p>
     <a href="https://discuss.meshery.io/tag/meshery" target="_blank" rel="noopener noreferrer">
@@ -284,6 +284,7 @@ If you expose Meshery through an ingress on Minikube, the following steps set up
 
 Section pages:
 
+- [Air-Gapped Installation](/installation/kubernetes/air-gapped/): Install Meshery on Kubernetes in an air-gapped (offline) environment using Helm, a private registry, or side-loaded images.
 - [AKS](/installation/kubernetes/aks/): Manage your AKS clusters with Meshery. Deploy Meshery in AKS in-cluster or out-of-cluster.
 - [DigitalOcean](/installation/kubernetes/digitalocean/): Install Meshery on DigitalOcean. Deploy Meshery out-of-cluster with Docker on a Droplet, or in-cluster on DigitalOcean Kubernetes (DOKS).
 - [EKS](/installation/kubernetes/eks/): Install Meshery on Elastic Kubernetes Service. Deploy Meshery in EKS in-cluster or outside of EKS out-of-cluster.
