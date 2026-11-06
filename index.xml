@@ -42337,7 +42337,17 @@ back Meshery security vulnerabilities. We investigate every report thoroughly.&l
 &lt;li&gt;Using Hyper-V to create a Linux VM&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Setting up a Meshery development environment on WSL(2) or Hyper-V is not much different from setting up on a native Linux platform. The same instructions can be followed as already documented.&lt;/p&gt;
-&lt;p&gt;All three methods require the same prerequisites mentioned below in the &lt;a href="/project/contributing/meshery-windows/#prerequisites"&gt;Prerequisites&lt;/a&gt; section but the Linux-based methods/platforms come with some of the prerequisites pre-installed and have no issues with Linux style commands making it easier to setup the environment.&lt;/p&gt;</description></item><item><title>Shortcode Formatting Examples</title><link>/project/contributing/contributing-docs/shortcode-examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/contributing/contributing-docs/shortcode-examples/</guid><description>&lt;p&gt;The Meshery documentation uses a variety of shortcodes to create rich, formatted content such as callouts, tabs, and generated tables.&lt;/p&gt;
+&lt;p&gt;All three methods require the same prerequisites mentioned below in the &lt;a href="/project/contributing/meshery-windows/#prerequisites"&gt;Prerequisites&lt;/a&gt; section but the Linux-based methods/platforms come with some of the prerequisites pre-installed and have no issues with Linux style commands making it easier to setup the environment.&lt;/p&gt;</description></item><item><title>Shape Builder</title><link>/extensions/extensions/shape-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/extensions/extensions/shape-builder/</guid><description>&lt;p&gt;Shape Builder is a visual tool for creating custom polygon shapes for Meshery components. It displays coordinates in the format Kanvas uses to render a polygon.&lt;/p&gt;
+&lt;h2 id="create-a-shape"&gt;
+	Create a shape
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;a href="https://shapes.meshery.io"&gt;Shape Builder&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Draw at least three points, then select &lt;strong&gt;Close Shape&lt;/strong&gt;.
+Check that each coordinate is between -1 and 1, including after scaling. If an x-coordinate exceeds 1, redraw the vertices within the leftmost 520 pixels of the canvas and check again. After your final redraw or scaling change, copy the checked coordinates displayed below the canvas.&lt;/li&gt;
+&lt;li&gt;In your Meshery component, set &lt;code&gt;styles.shape&lt;/code&gt; to &lt;code&gt;polygon&lt;/code&gt; and put the coordinates in &lt;code&gt;styles.shape-polygon-points&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Polygon coordinates range from -1 to 1. For example, these styles describe a plus shape:&lt;/p&gt;</description></item><item><title>Shortcode Formatting Examples</title><link>/project/contributing/contributing-docs/shortcode-examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/project/contributing/contributing-docs/shortcode-examples/</guid><description>&lt;p&gt;The Meshery documentation uses a variety of shortcodes to create rich, formatted content such as callouts, tabs, and generated tables.&lt;/p&gt;
 &lt;p&gt;This page is a visual reference for documentation contributors. It shows the markdown syntax required to invoke each shortcode, followed by its rendered output, so you can see exactly how a shortcode behaves before using it.&lt;/p&gt;
 &lt;p&gt;Shortcodes come from two places:&lt;/p&gt;
 &lt;ul&gt;

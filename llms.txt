@@ -475,6 +475,7 @@ Bookinfo The sample BookInfo …
 - [Schemahero](/extensions/models/schemahero/index.md)
 - [Security Role Perm Operator Svc](/extensions/models/security-role-perm-operator-svc/index.md)
 - [Serverless Workflow](/extensions/models/serverless-workflow/index.md)
+- [Shape Builder](/extensions/extensions/shape-builder/index.md): Create custom polygon shapes for Meshery components.
 - [Sidekick](/extensions/models/sidekick/index.md)
 - [Skooner](/extensions/models/skooner/index.md)
 - [Slack Operator](/extensions/models/slack-operator/index.md)
